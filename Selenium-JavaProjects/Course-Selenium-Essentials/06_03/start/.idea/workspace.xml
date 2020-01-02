@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1cd74ac-4832-40eb-9374-9c661b8aef50" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../02_02/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_02/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_02/start/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_02/start/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_02/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_02/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_02/start/test/KeyboardAndMouseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_02/start/test/KeyboardAndMouseInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_03/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_03/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_03/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_03/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_03/start/target/test-classes/Autocomplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_03/start/target/test-classes/Autocomplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_03/start/test/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_03/start/test/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_04/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_04/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_04/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_04/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_04/start/target/test-classes/ScrollToElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_04/start/target/test-classes/ScrollToElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_04/start/test/ScrollToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_04/start/test/ScrollToElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_05/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_05/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_05/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_05/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_05/start/target/test-classes/SwitchToActiveWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_05/start/target/test-classes/SwitchToActiveWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_05/start/test/SwitchToActiveWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_05/start/test/SwitchToActiveWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_06/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_06/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_06/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_06/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_06/start/target/test-classes/SwitchToAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_06/start/target/test-classes/SwitchToAlert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_06/start/test/SwitchToAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_06/start/test/SwitchToAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_07/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_07/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_07/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_07/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_07/start/target/test-classes/ExecuteJavascript.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_07/start/target/test-classes/ExecuteJavascript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_07/start/test/ExecuteJavascript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_07/start/test/ExecuteJavascript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_08/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_08/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_08/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_08/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_08/start/target/test-classes/DragAndDrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_08/start/target/test-classes/DragAndDrop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_08/start/test/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_08/start/test/DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_02/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_02/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_02/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_02/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_02/start/target/test-classes/Radiobuttons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_02/start/target/test-classes/Radiobuttons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_02/start/test/Radiobuttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_02/start/test/Radiobuttons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_03/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_03/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_03/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_03/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_03/start/target/test-classes/Datepicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_03/start/target/test-classes/Datepicker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_03/start/test/Datepicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_03/start/test/Datepicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_04/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_04/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_04/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_04/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_04/start/target/test-classes/Dropdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_04/start/target/test-classes/Dropdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_04/start/test/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_04/start/test/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_05/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_05/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_05/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_05/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_05/start/target/test-classes/FileUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_05/start/target/test-classes/FileUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_05/start/test/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_05/start/test/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_02/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_02/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_02/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_02/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_02/start/target/test-classes/Autocomplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_02/start/target/test-classes/Autocomplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_02/start/test/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_02/start/test/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_03/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_03/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_03/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_03/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_03/start/target/test-classes/Autocomplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_03/start/target/test-classes/Autocomplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_03/start/test/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_03/start/test/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_01/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_01/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_01/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_01/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_01/start/target/test-classes/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_01/start/target/test-classes/Form.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_01/start/test/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_01/start/test/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_02/start/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_02/start/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_02/start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_02/start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_02/start/target/test-classes/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_02/start/target/test-classes/Form.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_02/start/test/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_02/start/test/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Form.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QzP9jQMpzigRH2CzyUfTcm82fo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../06_04/start" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Form" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Form" />
+      <module name="Form" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Form" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1cd74ac-4832-40eb-9374-9c661b8aef50" name="Default" comment="" />
+      <created>1525039908123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525039908123</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
