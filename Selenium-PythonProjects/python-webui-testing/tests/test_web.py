@@ -38,3 +38,5 @@ def test_basic_duckduckgo_search(browser):
     search_input = browser.find_element_by_id('search_form_input_homepage')     # Assert / THEN
     # Send the Browser the Phrase then press Enter/Return
     search_input.send_keys(PHRASE + Keys.RETURN)
+
+    # link_divs = browser.find_element_by_id
