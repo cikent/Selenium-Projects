@@ -39,4 +39,12 @@ def test_basic_duckduckgo_search(browser):
     # Send the Browser the Phrase then press Enter/Return
     search_input.send_keys(PHRASE + Keys.RETURN)
 
-    # link_divs = browser.find_element_by_id
+    link_divs = browser.find_elements_by_css_selector('#links > div')
+    assert len(link_divs) > 0
+
+    xpath = f"//div[@id='links']//*[contains(text(), '{PHRASE}')]"
+    results = browser.find_elements_by_xpath(xpath)
+    assert len(results) > 0
+
+    search_input = browser.find_element_by_id('search_form_input')
+    assert search_input.get_attribute('value') == PHRASE
