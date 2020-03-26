@@ -7,6 +7,10 @@ The fixtures set up and clean up the ChromeDriver instance.
 # Import the Pytest Library
 import pytest
 
+# Import the Page Objects created within the Project
+from pages.search import DuckDuckGoSearchPage
+# from pages.result import 
+
 # From the Selenium Webdriver Library, import the Chrome module
 from selenium.webdriver import Chrome
 # From the Selenium Webdriver Common Keys Library, import the Keys module
@@ -20,25 +24,16 @@ def browser():                      # Define the function
     yield driver                    # Return the instanced ChromDriver object at the end of Setup
     driver.quit()                   # During Cleanup, quit/destroy the instanced ChromeDriver object
 
-
-"""
-Test Procedure:
-1. Navigate to the DuckDuckGo home page
-2. Enter the Search Phase
-3. Verify that:
-    a. Results appear on the results page
-    b. The search phrase appears in the search bar
-    c. At least one search result contains the search phrase
-"""
-
 # Define Test Function to Search DuckDuckGo
 def test_basic_duckduckgo_search(browser):
     """ Arrange / GIVEN Section """
-    # Define Test Variables necessary for testing                
-    URL = 'https://www.duckduckgo.com'                                          
+    # Define Test Specifc Search Phrase                
     PHRASE = 'panda'                                                            
-    # Navigate to DuckDuckGo's home page utilizing the instantiated ChromeDriver
-    browser.get(URL)                                                           
+
+    search_page = DuckDuckGoSearchPage(browser)
+    search_page.load
+    search_page.search(PHRASE)
+
 
     """ Act / WHEN Section """
     # Find the Search Input Text Field using the Elements Id value                    
