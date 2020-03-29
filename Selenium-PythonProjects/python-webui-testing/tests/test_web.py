@@ -22,8 +22,11 @@ def config():                                       # Function to load config da
 def browser(config):                                # Define the browser function and pass config() data to it
     if config['browser'] == 'chrome':               # Check to see if config matches Chrome
         driver = Chrome()                           # Initialize ChromeDriver by creating a Chrome browser object
+    elif config['browser'] == 'firefox':            # Check to see if config matches Firefox
+        driver = Firefox()                          # Initialize GeckoDriver by creating a Firefox browser object
     else:                                           # Otherwise, raise Exception and prompt User about error
         raise Exception(f'"{config["browser"]}" is not a supported browser')
+   
     driver.implicitly_wait(config['wait_time'])     # Set the Driver's Implicit Wait duration based upon the 'wait_time' config value
     yield driver                                    # Return the instanced ChromDriver object at the end of Setup
     driver.quit()                                   # During Cleanup, quit/destroy the instanced ChromeDriver object
