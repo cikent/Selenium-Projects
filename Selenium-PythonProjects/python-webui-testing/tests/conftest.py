@@ -12,7 +12,7 @@ SUPPORTED_BROWSERS = ['chrome', 'firefox']
 # Pytest Fixture to return JSON config file as a Dictionary object
 @pytest.fixture(scope='session')
 def config():
-    # Read the JSON config file and returns it as a parsed dict
+    # Read the JSON config file and returns it as a parsed dictionary
     with open(CONFIG_PATH) as config_file:
         data = json.load(config_file)
     return data
