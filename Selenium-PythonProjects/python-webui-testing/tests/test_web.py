@@ -1,3 +1,6 @@
+# Import the Pytest
+import pytest
+
 # Import the Page modules created in Pages folder
 from pages.result import DuckDuckGoResultPage
 from pages.search import DuckDuckGoSearchPage
