@@ -1,13 +1,12 @@
-# Import the Pytest Library
-import pytest
-import json
+# Import the Pytest & JSON Libraries
+import pytest, json
+
+# From the Selenium Webdriver Library, import the Chrome module
+from selenium.webdriver import Chrome, Firefox
 
 # Import the Page modules created in Pages folder
 from pages.result import DuckDuckGoResultPage
 from pages.search import DuckDuckGoSearchPage
-
-# From the Selenium Webdriver Library, import the Chrome module
-from selenium.webdriver import Chrome
 
 # Create a Pytest Fixture to handle configuration parameters for the test
 @pytest.fixture(scope='session')                    # Pytest decorator, scoped to execute once each test session
