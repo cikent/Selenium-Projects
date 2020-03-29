@@ -1,35 +1,6 @@
-# Import the Pytest & JSON Libraries
-import pytest, json
-
-# From the Selenium Webdriver Library, import the Chrome module
-from selenium.webdriver import Chrome, Firefox
-
 # Import the Page modules created in Pages folder
 from pages.result import DuckDuckGoResultPage
 from pages.search import DuckDuckGoSearchPage
-
-# Create a Pytest Fixture to handle configuration parameters for the test
-@pytest.fixture(scope='session')                    # Pytest decorator, scoped to execute once each test session
-def config():                                       # Function to load config data
-    with open('tests/config.json') as config_file:   # Open the JSON config file
-        data = json.load(config_file)               # Store the contents of the file
-    return data                                     # Return the variable holding the config data
-
-
-# Create a Pytest Fixture to handle Setup and Cleanup of Tests
-@pytest.fixture                                     # Pytest decorator
-def browser(config):                                # Define the browser function and pass config() data to it
-    if config['browser'] == 'chrome':               # Check to see if config matches Chrome
-        driver = Chrome()                           # Initialize ChromeDriver by creating a Chrome browser object
-    elif config['browser'] == 'firefox':            # Check to see if config matches Firefox
-        driver = Firefox()                          # Initialize GeckoDriver by creating a Firefox browser object
-    else:                                           # Otherwise, raise Exception and prompt User about error
-        raise Exception(f'"{config["browser"]}" is not a supported browser')
-   
-    driver.implicitly_wait(config['wait_time'])     # Set the Driver's Implicit Wait duration based upon the 'wait_time' config value
-    yield driver                                    # Return the instanced ChromDriver object at the end of Setup
-    driver.quit()                                   # During Cleanup, quit/destroy the instanced ChromeDriver object
-
 
 # Define Test Function to Search DuckDuckGo
 def test_basic_duckduckgo_search(browser):
