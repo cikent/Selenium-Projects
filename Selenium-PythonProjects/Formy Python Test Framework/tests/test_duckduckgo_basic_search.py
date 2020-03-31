@@ -2,8 +2,8 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.result import DuckDuckGoResultPage
-from pages.search import DuckDuckGoSearchPage
+from pages.DuckDuckGo_Result_Page import DuckDuckGoResultPage
+from pages.DuckDuckGo_Home_Page import DuckDuckGoHomePage
 
 # Define Test Function to Search DuckDuckGo
 def test_basic_duckduckgo_search(browser):
@@ -13,7 +13,7 @@ def test_basic_duckduckgo_search(browser):
 
     """ Act / WHEN Section """
     # Create an instanced Class object from the DuckDuckGoSearchPage Class
-    search_page = DuckDuckGoSearchPage(browser)
+    search_page = DuckDuckGoHomePage(browser)
     # Call the DuckDuckGoSearchPage Load method and navigate to the Duck Duck Go home page
     search_page.load()
     # Find the Search Text field and pass in the Search

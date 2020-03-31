@@ -29,7 +29,7 @@ class DuckDuckGoResultPage(object):
         phrase_results = self.browser.find_elements(*self.PHRASE_RESULTS(phrase))
         return len(phrase_results)
     
-    # Find and and return the value contained in the Search Text Field on the Results page
+    # Find and return the value contained in the Search Text Field on the Results page
     def search_input_value(self):
         search_input = self.browser.find_element(*self.SEARCH_INPUT)
         return search_input.get_attribute('value')

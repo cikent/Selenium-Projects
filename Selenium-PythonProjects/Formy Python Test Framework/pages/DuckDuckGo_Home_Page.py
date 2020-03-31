@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 # Create a Class Object for the DuckDuckGo Home page
-class DuckDuckGoSearchPage(object):
+class DuckDuckGoHomePage(object):
     # Create a String variable to hold the Duck Duck Go Home page value
     URL = 'https://www.duckduckgo.com'
 
