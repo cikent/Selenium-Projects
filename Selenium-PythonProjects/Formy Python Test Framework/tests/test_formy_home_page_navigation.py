@@ -8,7 +8,7 @@ from pages.Formy_Home_Page import FormyHomePage
 def test_Navigate_To_Formy_Home(browser):
     """ Arrange / GIVEN Section """
     # Assertion variables for each UI element on the Formy Home Page that will be verified           
-    GREETING = 'Welcome to Formy'                                                            
+    HOME_GREETING_TEXT = 'Welcome to Formy'                                                            
 
     """ Act / WHEN Section """
     # Create an instanced Class object from the FormyHomePage Class
@@ -18,5 +18,5 @@ def test_Navigate_To_Formy_Home(browser):
     
     """ Assert / THEN Section """
     # Verify that the Formy Home Page Heading Text matches the GREETING value
-    # assert home_page.home_greeting_text == GREETING
+    assert home_page.home_greeting_text == HOME_GREETING_TEXT
     

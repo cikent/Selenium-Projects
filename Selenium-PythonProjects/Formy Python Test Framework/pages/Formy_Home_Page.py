@@ -9,7 +9,7 @@ class FormyHomePage(object):
 
     # Variables for each test relevant UI element on the Formy Home Page
     NAVIGATION_BAR_FORMY_TEXT = (By.ID, 'logo')
-    HEADING_GREETING_TEXT = (By.CLASS_NAME, 'display-3')
+    HOME_GREETING_TEXT = (By.CLASS_NAME, 'display-3')
 
     # When the Class is instantiated, initialize the browser from the pytest fixture  
     def __init__(self, browser):
@@ -19,7 +19,7 @@ class FormyHomePage(object):
     def load(self):
         self.browser.get(self.URL)
 
-    # Find and return the Greeting contained in the Formy Home Page Heading
+    # Find and return the Greeting Text displaed on the Formy Home Page
     def home_greeting_text(self):
-        home_greeting_value = self.browser.find_element(*self.HEADING_GREETING_TEXT)
+        home_greeting_value = self.browser.find_element(*self.HOME_GREETING_TEXT)
         return home_greeting_value.get
