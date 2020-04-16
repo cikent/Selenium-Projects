@@ -19,7 +19,7 @@ class FormyHomePage(object):
     def load(self):
         self.browser.get(self.URL)
 
-    # Find and return the Greeting Text displaed on the Formy Home Page
+    # Find and return the Greeting Text displayed on the Formy Home Page
     def home_greeting_text(self):
         home_greeting_value = self.browser.find_element(*self.HOME_GREETING_TEXT)
-        return home_greeting_value.get
+        return home_greeting_value.get_property('display-3')
