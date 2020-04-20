@@ -28,4 +28,3 @@ def test_basic_duckduckgo_search(browser):
     assert results_page.phrase_result_count(PHRASE) > 0
     # Verify that the Results page Search Text Field value matches the search phrase
     assert results_page.search_input_value() == PHRASE
-

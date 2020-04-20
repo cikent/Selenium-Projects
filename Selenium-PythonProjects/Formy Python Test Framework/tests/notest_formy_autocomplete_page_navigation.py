@@ -19,5 +19,3 @@ def test_Navigate_To_Formy_Autocomplete(browser):
     """ Assert / THEN Section """
     # Verify that the Formy Autocomplete Page Heading Text matches the GREETING value
     # assert autocomplete_page.home_greeting_text == GREETING
-
-    
