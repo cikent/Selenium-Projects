@@ -18,5 +18,5 @@ def test_Navigate_To_Formy_Home(browser):
     
     """ Assert / THEN Section """
     # Verify that the Formy Home Page Heading Text matches the GREETING value
-    assert home_page.home_greeting_text == HOME_GREETING_TEXT
+    assert home_page.home_greeting_text() == HOME_GREETING_TEXT
     
