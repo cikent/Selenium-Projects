@@ -4,10 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 # Create a Class Object for the Formy Home Page
 class FormyHomePage(object):
-    # Create a String variable to hold the Formy Home Page address
+    # Variables for each test related UI Element on the Formy Home Page
     URL = 'https://formy-project.herokuapp.com/'
-
-    # Variables for each test relevant UI element on the Formy Home Page
     NAVIGATION_BAR_FORMY_TEXT = (By.ID, 'logo')
     HOME_GREETING_TEXT = (By.CLASS_NAME, 'display-3')
 
