@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Radio Buttons Page
 class FormyRadioButtonsPage(FormyHomePage):
-    # Create a String variable to hold the Formy Radio Buttons Page address
+    # Variables for each test related UI Element on the Formy Radio Buttons Page
     URL = 'https://formy-project.herokuapp.com/radiobutton'
 
     # Load the Formy Radio Buttons Page

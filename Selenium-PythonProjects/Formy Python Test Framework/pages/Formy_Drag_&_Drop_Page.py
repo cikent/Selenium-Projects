@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Drag & Drop Page
 class FormyDragDropPage(FormyHomePage):
-    # Create a String variable to hold the Formy Drag & Drop Page address
+    # Variables for each test related UI Element on the Formy Drag & Drop Page
     URL = 'https://formy-project.herokuapp.com/dragdrop'
 
     # Load the Formy Drag & Drop Page

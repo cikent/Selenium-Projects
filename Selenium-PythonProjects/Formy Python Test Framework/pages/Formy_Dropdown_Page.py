@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Dropdown Page
 class FormyDropdownPage(FormyHomePage):
-    # Create a String variable to hold the Formy Dropdown Page address
+    # Variables for each test related UI Element on the Formy Dropdown Page
     URL = 'https://formy-project.herokuapp.com/dropdown'
 
     # Load the Formy Dropdown Page

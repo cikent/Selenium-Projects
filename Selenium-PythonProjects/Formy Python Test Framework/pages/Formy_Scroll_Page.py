@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Scroll Page
 class FormyScrollPage(FormyHomePage):
-    # Create a String variable to hold the Formy Scroll Page address
+    # Variables for each test related UI Element on the Formy Scroll Page
     URL = 'https://formy-project.herokuapp.com/scroll'
 
     # Load the Formy Scroll Page

@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Keypress & Mouse Input Page
 class FormyKeyAndMouseInputPage(FormyHomePage):
-    # Create a String variable to hold the Formy Keypress & Mouse Input Page address
+    # Variables for each test related UI Element on the Formy Keypress & Mouse Input Page
     URL = 'https://formy-project.herokuapp.com/keypress'
 
     # Load the Formy Keypress & Mouse Input Page

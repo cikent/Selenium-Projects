@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Buttons Page
 class FormyButtonsPage(FormyHomePage):
-    # Create a String variable to hold the Formy Buttons Page address
+    # Variables for each test related UI Element on the Formy Buttons Page
     URL = 'https://formy-project.herokuapp.com/buttons'
 
     # Load the Formy Buttons Page

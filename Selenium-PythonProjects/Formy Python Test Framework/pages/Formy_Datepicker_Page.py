@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Datepicker Page
 class FormyDatepickerPage(FormyHomePage):
-    # Create a String variable to hold the Formy Datepicker Page address
+    # Variables for each test related UI Element on the Formy Datepicker Page
     URL = 'https://formy-project.herokuapp.com/datepicker'
 
     # Load the Formy Datepicker Page

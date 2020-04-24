@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy File Upload Page
 class FormyFileUploadPage(FormyHomePage):
-    # Create a String variable to hold the Formy File Upload Page address
+    # Variables for each test related UI Element on the Formy File Upload Page
     URL = 'https://formy-project.herokuapp.com/fileupload'
 
     # Load the Formy File Upload Page

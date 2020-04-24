@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Form Page
 class FormyFormPage(FormyHomePage):
-    # Create a String variable to hold the Formy Form Page address
+    # Variables for each test related UI Element on the Formy Form Page
     URL = 'https://formy-project.herokuapp.com/form'
 
     # Load the Formy Form Page

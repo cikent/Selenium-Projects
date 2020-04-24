@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Enabled & Disabled Elements Page
 class FormyEnabledNDisabledElementsPage(FormyHomePage):
-    # Create a String variable to hold the Formy Enabled & Disabled Elements Page address
+    # Variables for each test related UI Element on the Formy Enabled & Disabled Elements Page
     URL = 'https://formy-project.herokuapp.com/enabled'
 
     # Load the Formy Enabled & Disabled Elements Page

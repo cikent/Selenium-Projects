@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Switch Window Page
 class FormySwitchWindowPage(FormyHomePage):
-    # Create a String variable to hold the Formy Switch Window Page address
+    # Variables for each test related UI Element on the Formy Switch Window Page
     URL = 'https://formy-project.herokuapp.com/switch-window'
 
     # Load the Formy Switch Window Page

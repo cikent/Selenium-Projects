@@ -7,7 +7,7 @@ from pages.Formy_Home_Page import FormyHomePage
 
 # Create a Class Object for the Formy Modal Page
 class FormyModalPage(FormyHomePage):
-    # Create a String variable to hold the Formy Modal Page address
+    # Variables for each test related UI Element on the Formy Modal Page
     URL = 'https://formy-project.herokuapp.com/modal'
 
     # Load the Formy Modal Page
