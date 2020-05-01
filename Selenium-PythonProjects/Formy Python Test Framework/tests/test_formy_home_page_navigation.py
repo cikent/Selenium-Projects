@@ -1,4 +1,4 @@
-# Import the Pytest
+# Import the Pytest Library
 import pytest
 
 # Import the Page modules created in Pages folder

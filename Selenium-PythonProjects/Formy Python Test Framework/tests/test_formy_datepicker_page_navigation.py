@@ -1,11 +1,11 @@
-# Import the Pytest
+# Import the Pytest Library
 import pytest
 
 # Import the Page modules created in Pages folder
 from pages.Formy_Datepicker_Page import FormyDatepickerPage
 
 """ Arrange / GIVEN Section """
-# Assertion variables for each UI element on the Formy Checkbox Page that will be verified
+# Assertion variables for each UI element on the Formy Datepicker Page that will be verified
 DATEPICKER_HEADING_TEXT = "Datepicker"
 
 # Define Test Function to Navigate to Formy Datepicker Page
