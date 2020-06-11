@@ -9,9 +9,15 @@ from pages.Formy_Home_Page import FormyHomePage
 class FormyScrollPage(FormyHomePage):
     # Variables for each test related UI Element on the Formy Scroll Page
     URL = 'https://formy-project.herokuapp.com/scroll'
+    NAVIGATION_BAR_FORMY_TEXT = (By.ID, 'logo')
+    SCROLL_HEADING_TEXT = (By.TAG_NAME, 'h1')
 
     # Load the Formy Scroll Page
     def load(self):
         self.browser.get(self.URL)
 
-    # Find and return the Sub-Page Heading value for page load verification
+    # Find and return the Scroll Page Heading value for page load verification
+    def scroll_heading_text(self):
+        scroll_heading_value = self.browser.find_element(*self.SCROLL_HEADING_TEXT)
+        return scroll_heading_value.text
+
