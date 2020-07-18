@@ -2,7 +2,7 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.Formy_Keyboard_Mouse_Input_Page import FormyKeyboardMouseInputPage
+from pages.KeyboardMouseInputPagePo import KeyboardMouseInputPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Formy Formy Keyboard & Mouse Input Page that will be verified
@@ -12,7 +12,7 @@ KEYBOARD_MOUSE_HEADING_TEXT = 'Keyboard and Mouse Input'
 def test_Navigate_To_Formy_Keyboard_Mouse(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the FormyKeyboardMouseInputPage Class
-    keyboard_mouse_page = FormyKeyboardMouseInputPage(browser)
+    keyboard_mouse_page = KeyboardMouseInputPage(browser)
     # Call the FormyDragDropPage load() method and navigate to the Formy Formy Keyboard & Mouse Input Page
     keyboard_mouse_page.load()
 

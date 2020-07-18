@@ -2,7 +2,7 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.Formy_Radio_Buttons_Page import FormyRadioButtonsPage
+from pages.RadioButtonsPagePo import RadioButtonsPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Radio Buttons Page that will be verified
@@ -12,7 +12,7 @@ RADIO_BUTTONS_HEADING_TEXT = 'Radio buttons'
 def test_Navigate_To_Formy_Radio_Button(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the Radio Buttons Page Class
-    radio_buttons_page = FormyRadioButtonsPage(browser)
+    radio_buttons_page = RadioButtonsPage(browser)
 
     # Call the Radio Buttons Page load() method and navigate to the Radio Buttons Page
     radio_buttons_page.load()

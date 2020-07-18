@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from pages.FormyHomePagePo import FormyHomePage
 
 # Create a Class Object for the Page Scroll Page
-class ScrollPage(FormyHomePage):
+class PageScrollPage(FormyHomePage):
     # Define and assign the Element Locator Variables for each test related UI Element on the Page Scroll Page
     """
     Element Locator Variable Convention Requirements:

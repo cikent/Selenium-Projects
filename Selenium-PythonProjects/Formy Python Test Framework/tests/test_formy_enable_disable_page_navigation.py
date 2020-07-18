@@ -2,7 +2,7 @@
 import pytest
 
 # Import the modules created in the Pages folder
-from pages.Formy_Enabled_Disabled_Elements_Page import FormyEnabledDisabledElementsPage
+from pages.EnabledDisabledElementsPagePo import EnabledDisabledElementsPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Formy Enable & Disable Page that will be verified
@@ -12,7 +12,7 @@ ENABLE_DISABLE_HEADING_TEXT = 'Enabled and Disabled elements'
 def test_Navigate_To_Formy_Enable_Disable(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the FormyEnableDisablePage Class
-    enable_disable_page = FormyEnabledDisabledElementsPage(browser)
+    enable_disable_page = EnabledDisabledElementsPage(browser)
     # Call the FormyEnableDisablePage load() method and navigate to the Formy Enable & Disable Page
     enable_disable_page.load()
 

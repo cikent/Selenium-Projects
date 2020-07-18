@@ -2,11 +2,11 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.Formy_Home_Page import FormyHomePage
+from pages.FormyHomePagePo import FormyHomePage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Formy Home Page that will be verified           
-HOME_GREETING_TEXT = 'Welcome to Formy'
+WELCOME_GREETING_TEXT = 'Welcome to Formy'
 
 # Define Test Function to Navigate to Formy Home Page
 def test_Navigate_To_Formy_Home(browser):
@@ -17,6 +17,6 @@ def test_Navigate_To_Formy_Home(browser):
     home_page.load()
     
     """ Assert / THEN Section """
-    # Verify that the Formy Home Page Heading Text matches the HOME_GREETING_TEXT variable
-    assert home_page.home_greeting_text() == HOME_GREETING_TEXT
+    # Verify that the Formy Home Page Heading Text matches the WELCOME_GREETING_TEXT variable
+    assert home_page.welcome_greeting_text() == WELCOME_GREETING_TEXT
     

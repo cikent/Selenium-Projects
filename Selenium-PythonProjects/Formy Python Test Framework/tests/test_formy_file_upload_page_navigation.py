@@ -2,7 +2,7 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.Formy_File_Upload_Page import FormyFileUploadPage
+from pages.FileUploadPagePo import FileUploadPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Sub-Page that will be verified
@@ -12,7 +12,7 @@ FILE_UPLOAD_HEADING_TEXT = 'File upload'
 def test_Navigate_To_Formy_File_Upload(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the File Upload Page Class
-    file_upload_page = FormyFileUploadPage(browser)
+    file_upload_page = FileUploadPage(browser)
 
     # Call the File Upload Page load() method and navigate to the File Upload Page
     file_upload_page.load()

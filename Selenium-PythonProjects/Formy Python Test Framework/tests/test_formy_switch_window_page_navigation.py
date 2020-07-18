@@ -2,7 +2,7 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.Formy_Switch_Window_Page import FormySwitchWindowPage
+from pages.SwitchWindowPagePo import SwitchWindowPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Sub-Page that will be verified
@@ -12,7 +12,7 @@ SWITCH_WINDOW_HEADING_TEXT = 'Switch Window'
 def test_Navigate_To_Formy_Switch_Window(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the Switch Window Page Class
-    switch_window_page = FormySwitchWindowPage(browser)
+    switch_window_page = SwitchWindowPage(browser)
 
     # Call the Switch Window Page load() method and navigate to the Switch Window Page
     switch_window_page.load()

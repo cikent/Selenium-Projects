@@ -2,7 +2,7 @@
 import pytest
 
 # Import the modules created in the Pages folder
-from pages.Formy_Dropdown_Page import FormyDropdownPage
+from pages.DropdownPagePo import DropdownPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Formy Dropdown Page that will be verified
@@ -12,7 +12,7 @@ DROPDOWN_HEADING_TEXT = 'Dropdown'
 def test_Navigate_To_Formy_Dropdown(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the FormyDropdownPage Class
-    dropdown_page = FormyDropdownPage(browser)
+    dropdown_page = DropdownPage(browser)
     # Call the FormyDropdownPage load() method and navigate to the Formy Dropdown Page
     dropdown_page.load()
     

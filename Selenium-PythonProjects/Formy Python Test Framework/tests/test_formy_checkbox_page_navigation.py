@@ -2,7 +2,7 @@
 import pytest
 
 # Import the Page modules created in Pages folder
-from pages.Formy_Checkbox_Page import FormyCheckboxPage
+from pages.CheckboxPagePo import CheckboxPage
 
 """ Arrange / GIVEN Section """
 # Assertion variables for each UI element on the Formy Checkbox Page that will be verified
@@ -12,7 +12,7 @@ CHECKBOX_HEADING_TEXT = 'Checkboxes'
 def test_Navigate_To_Formy_Checkbox(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the FormyCheckboxPage Class
-    checkbox_page = FormyCheckboxPage(browser)
+    checkbox_page = CheckboxPage(browser)
     # Call the FormyCheckboxPage load() method and navigate to the Formy Checkbox Page
     checkbox_page.load()
     

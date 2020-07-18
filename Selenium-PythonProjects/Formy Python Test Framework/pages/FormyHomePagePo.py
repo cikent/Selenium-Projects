@@ -19,7 +19,7 @@ class FormyHomePage(object):
     """
     URL = 'https://formy-project.herokuapp.com/'
     FORMY_NAVIGATION_BAR_TEXT = (By.ID, 'logo')
-    HOME_GREETING_TEXT = (By.CLASS_NAME, 'display-3')
+    WELCOME_GREETING_TEXT = (By.CLASS_NAME, 'display-3')
 
     # When the Class is instantiated, initialize the browser from the pytest fixture  
     def __init__(self, browser):
@@ -30,6 +30,7 @@ class FormyHomePage(object):
         self.browser.get(self.URL)
 
     # Find and return the Greeting Text displayed on the Formy Home Page
-    def home_greeting_text(self):
-        home_greeting_value = self.browser.find_element(*self.HOME_GREETING_TEXT)
-        return home_greeting_value.text
+    def welcome_greeting_text(self):
+        welcome_greeting_value = self.browser.find_element(
+            *self.WELCOME_GREETING_TEXT)
+        return welcome_greeting_value.text
