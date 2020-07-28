@@ -19,13 +19,6 @@ ONE_BUTTON = '1'
 TWO_BUTTON = '2'
 DROPDOWN_MENU = 'Dropdown'
 
-""" Act / WHEN Section """
-# Create an instanced Class object from the Buttons Page Class
-""" buttons_page = ButtonsPage(browser)
-
-# Call the Buttons Page load() method and navigate to the Buttons Page
-buttons_page.load() """
-
 # Define Test Function to Navigate to Buttons Page
 def ButtonsPageSetup(browser):
     """ Act / WHEN Section """
