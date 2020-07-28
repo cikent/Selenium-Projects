@@ -35,18 +35,18 @@ def ButtonsPageSetup(browser):
     # Call the Buttons Page load() method and navigate to the Buttons Page
     buttons_page.load()
 
-    # Return the Buttons Page
+    # Return the Buttons Page Object
     return buttons_page
 
 # Define Test Function to Navigate to Buttons Page
 def test_Primary_Button_Selection_Via_XPATH(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the Buttons Page Class
-    ButtonsPageSetup(browser)
+    buttons_page = ButtonsPageSetup(browser)
 
     """ Assert / THEN Section """
     # Verify that the Buttons Page Primary Button text matches the Primary Buttons variable value
-    assert buttons_page.primary_button_xpath(buttons_page) == PRIMARY_BUTTON
+    assert buttons_page.primary_button_xpath() == PRIMARY_BUTTON
 
 # Define Test Function to Navigate to Buttons Page
 def test_Navigate_To_Formy_Buttons(browser):
