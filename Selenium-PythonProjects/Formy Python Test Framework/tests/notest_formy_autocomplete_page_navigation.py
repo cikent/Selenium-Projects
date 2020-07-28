@@ -13,6 +13,7 @@ def test_Navigate_To_Formy_Autocomplete(browser):
     """ Act / WHEN Section """
     # Create an instanced Class object from the FormyAutocompletePage Class
     autocomplete_page = AutocompletePage(browser)
+    
     # Call the FormyAutocompletePage load() method and navigate to the Formy Autocomplete Page
     autocomplete_page.load()
     

@@ -21,10 +21,14 @@ class ButtonsPage(FormyHomePage):
         - FORMY_NAVIGATION_BAR_TEXT: There are multiple spots on the page with the word "Formy", so it's necessary to be more descriptive about its location (do you see both locations?).
     """
     URL = 'https://formy-project.herokuapp.com/buttons'
-    FORMY_NAVIGATION_BAR_TEXT = (By.Id, 'logo')
+    FORMY_NAVIGATION_BAR_TEXT = (By.ID, 'logo')
+    PRIMARY_BUTTON_XPATH = (By.XPATH, '/html/body/div/form/div[1]/div/div/button[1]')
 
     # Load the Buttons Page
     def load(self):
         self.browser.get(self.URL)
 
-    # Find and return the Sub-Page Heading value for page load verification
+    # Find and return the Primary Buttons value via XPATH
+    def primary_button_xpath(self):
+        primary_button_element = self.browser.find_element(*self.PRIMARY_BUTTON_XPATH)
+        return primary_button_element.text
