@@ -1,13 +1,13 @@
-# Import Selenium locator modules for the Class Object to function
+# Import Selenium locator modules for the Class Objects to function
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 # Import the Page modules created in Pages folder
 from pages.FormyHomePagePo import FormyHomePage
 
-# Create a Class Object for the Buttons Page
+# Create a Class for the Buttons Page
 class ButtonsPage(FormyHomePage):
-    # Define and assign the Element Locator Variables for each test related UI Element on the Buttons Page
+    # Define and assign the Element Locator Variables for each test related UI Elements on the Buttons Page
     """
     Element Locator Variable Convention Requirements:
     - All Cap Letters
@@ -28,7 +28,7 @@ class ButtonsPage(FormyHomePage):
     def load(self):
         self.browser.get(self.URL)
 
-    # Find and return the Primary Buttons value via XPATH
+    # Element Locator: Return the Primary Button Element via XPATH
     def primary_button_xpath(self):
         primary_button_element = self.browser.find_element(*self.PRIMARY_BUTTON_XPATH)
-        return primary_button_element.text
+        return primary_button_element

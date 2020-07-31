@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 # Import the Page modules created in Pages folder
 from pages.FormyHomePagePo import FormyHomePage
 
-# Create a Class Object for the Drag & Drop Page
+# Create a Class for the Drag & Drop Page
 class DragDropPage(FormyHomePage):
     # Define and assign the Element Locator Variables for each test related UI Element on the Drag Drop Page
     """

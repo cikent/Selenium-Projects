@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 # Import the Page modules created in Pages folder
 from pages.FormyHomePagePo import FormyHomePage
 
-# Create a Class Object for the Enabled Disabled Elements Page
+# Create a Class for the Enabled Disabled Elements Page
 class EnabledDisabledElementsPage(FormyHomePage):
     # Define and assign the Element Locator Variables for each test related UI Element on the Enabled Disable Elements Page
     """

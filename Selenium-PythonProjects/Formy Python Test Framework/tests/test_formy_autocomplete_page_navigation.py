@@ -1,7 +1,7 @@
 # Import the Pytest Library
 import pytest
 
-# Import the Page modules created in Pages folder
+# Import the Autocomplete Page module created in Pages folder
 from pages.AutocompletePagePo import AutocompletePage
 
 """ Arrange / GIVEN Section """

@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 # Import the Page modules created in Pages folder
 from pages.FormyHomePagePo import FormyHomePage
 
-# Create a Class Object for the Dropdown Page
+# Create a Class for the Dropdown Page
 class DropdownPage(FormyHomePage):
     # Define and assign the Element Locator Variables for each test related UI Element on the Dropdown Page
     """

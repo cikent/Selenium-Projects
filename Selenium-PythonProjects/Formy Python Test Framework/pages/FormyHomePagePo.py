@@ -2,7 +2,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-# Create a Class Object for the Formy Home Page
+# Create a Class for the Formy Home Page
 class FormyHomePage(object):
     # Define and assign the Element Locator Variables for each test related UI Element on the Formy Home Page
     """
