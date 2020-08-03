@@ -46,14 +46,28 @@ def test_Buttons_Page_Load(browser):
     assert buttons_page_title == BUTTONS_PAGE_TITLE
 
 # Verify Buttons Page has a button called: Primary Button
-def test_Primary_Button_Selection_Via_XPATH(browser):
+def test_Primary_Button_Selection_Via_ABS_XPATH(browser):
     """ Arrange / GIVEN Section """
     # Create an instance of Buttons page using the setup function
     buttons_page = buttonsPageSetup(browser)
     
     """ Act / WHEN Section """
     # Create a Button object(variable) using the XPATH Element Locator to interact with
-    primary_button = buttons_page.primary_button_xpath()
+    primary_button = buttons_page.primary_button_abs_xpath()
+
+    """ Assert / THEN Section """
+    # Verify the Buttons Page function "primary_button_xpath()" accurately locates the Primary Button element by verifying Text value
+    assert primary_button.text == PRIMARY_BUTTON
+
+# Verify Buttons Page has a button called: Primary Button
+def test_Primary_Button_Selection_Via_REL_XPATH(browser):
+    """ Arrange / GIVEN Section """
+    # Create an instance of Buttons page using the setup function
+    buttons_page = buttonsPageSetup(browser)
+    
+    """ Act / WHEN Section """
+    # Create a Button object(variable) using the XPATH Element Locator to interact with
+    primary_button = buttons_page.primary_button_rel_xpath()
 
     """ Assert / THEN Section """
     # Verify the Buttons Page function "primary_button_xpath()" accurately locates the Primary Button element by verifying Text value

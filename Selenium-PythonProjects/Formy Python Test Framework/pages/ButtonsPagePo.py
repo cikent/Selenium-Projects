@@ -22,13 +22,27 @@ class ButtonsPage(FormyHomePage):
     """
     URL = 'https://formy-project.herokuapp.com/buttons'
     FORMY_NAVIGATION_BAR_TEXT = (By.ID, 'logo')
-    PRIMARY_BUTTON_XPATH = (By.XPATH, '/html/body/div/form/div[1]/div/div/button[1]')
+    PRIMARY_BUTTON_ABS_XPATH = (By.XPATH, '/html/body/div/form/div[1]/div/div/button[1]')       # Absolute XPATH, liable to break
+    PRIMARY_BUTTON_REL_XPATH = (By.XPATH, "//button[. = 'Primary']")                            # Relative XPATH, more reliable
+    
+    # PRIMARY_BUTTON_ID = (By.ID, )                         # Can't use Id because the Primary Button doesn't have an Id attribute
+    # PRIMARY_BUTTON_NAME = (By.NAME, )                     # Can't use Name because the Primary Button doesn't have an Name attribute
+    # PRIMARY_BUTTON_LINK_TEXT = (By.LINK_TEXT, )
+    # PRIMARY_BUTTON_PARTIAL_LINK_TEXT = (By.PARTIAL_LINK_TEXT, )
+    # PRIMARY_BUTTON_TAG_NAME = (By.TAG_NAME, )
+    # PRIMARY_BUTTON_CLASS_NAME = (By.CLASS_NAME, )
+    # PRIMARY_BUTTON_CSS_SELECTOR = (By.CSS_SELECTOR, 'body > div > form > div:nth-child(1) > div > div > button.btn.btn-lg.btn-primary')
 
     # Load the Buttons Page
     def load(self):
         self.browser.get(self.URL)
 
-    # Element Locator: Return the Primary Button Element via XPATH
-    def primary_button_xpath(self):
-        primary_button_element = self.browser.find_element(*self.PRIMARY_BUTTON_XPATH)
+    # Element Locator: Return the Primary Button Element via Absolute XPATH
+    def primary_button_abs_xpath(self):
+        primary_button_element = self.browser.find_element(*self.PRIMARY_BUTTON_ABS_XPATH)
+        return primary_button_element
+
+    # Element Locator: Return the Primary Button Element via Relative XPATH
+    def primary_button_rel_xpath(self):
+        primary_button_element = self.browser.find_element(*self.PRIMARY_BUTTON_REL_XPATH)
         return primary_button_element
