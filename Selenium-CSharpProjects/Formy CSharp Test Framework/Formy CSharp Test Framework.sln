@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formy CSharp Test Framework", "Formy CSharp Test Framework\Formy CSharp Test Framework.csproj", "{7FB9254C-A5B2-426C-915A-C01958CD11D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formy CSharp Test Framework", "Formy CSharp Test Framework.csproj", "{8797C46B-2B8E-4315-BE76-32106EA8E7FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7FB9254C-A5B2-426C-915A-C01958CD11D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FB9254C-A5B2-426C-915A-C01958CD11D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FB9254C-A5B2-426C-915A-C01958CD11D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FB9254C-A5B2-426C-915A-C01958CD11D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8797C46B-2B8E-4315-BE76-32106EA8E7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8797C46B-2B8E-4315-BE76-32106EA8E7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8797C46B-2B8E-4315-BE76-32106EA8E7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8797C46B-2B8E-4315-BE76-32106EA8E7FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8C65BC5A-8C49-4C4B-B7E9-8AF8D4E1BE9D}
+		SolutionGuid = {15C36B27-FCC0-4E69-A1BE-28F7C66E2059}
 	EndGlobalSection
 EndGlobal
