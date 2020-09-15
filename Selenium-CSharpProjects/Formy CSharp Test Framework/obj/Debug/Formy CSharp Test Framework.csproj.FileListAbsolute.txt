@@ -1,3 +1,4 @@
+C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\WebDriver.dll
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\NUnit3.TestAdapter.dll
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\nunit.engine.dll
@@ -7,13 +8,11 @@ C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Frame
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\Formy CSharp Test Framework.exe
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\Formy CSharp Test Framework.pdb
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\nunit.framework.dll
-C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\WebDriver.dll
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\WebDriver.Support.dll
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\nunit.framework.pdb
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\nunit.framework.xml
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\WebDriver.xml
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\bin\Debug\WebDriver.Support.xml
-C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\obj\Debug\Formy CSharp Test Framework.csprojAssemblyReference.cache
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\obj\Debug\Formy CSharp Test Framework.csproj.CoreCompileInputs.cache
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\obj\Debug\Formy CSharp Test Framework.csproj.CopyComplete
 C:\Development\Selenium-Projects\Selenium-CSharpProjects\Formy CSharp Test Framework\obj\Debug\Formy CSharp Test Framework.exe

@@ -15,11 +15,11 @@ namespace Formy_CSharp_Test_Framework
     {
         static void Main(string[] args)
         {
-            IWebDriver _driver = new ChromeDriver();    // Initialize the driver
+            IWebDriver _driver = new ChromeDriver();                 // Initialize the driver
             try
             {
                 _driver.Navigate().GoToUrl("https://www.dev.to");    // Open the browser to the specified URL
-                
+
                 IWebElement searchBar = _driver.FindElement(By.Id("nav-search"));   // Find Element via Id value
                 //IWebElement searchBar = _driver.FindElement(By.Id("navigation"));   // Find Element via non-valid Id value to cause exception
                 //IWebElement searchBar = _driver.FindElement(By.XPath("//*[@id='nav - search']"));   // Find Element via Xpath value
@@ -28,14 +28,14 @@ namespace Formy_CSharp_Test_Framework
 
                 //Thread Sleep, give Results page time to load
                 Thread.Sleep(5000);
-                
+
 
                 //Declare Test Variables
                 string expectedSearchUrl = "https://dev.to/search?q=google%20maps%20api%20react";
                 string actualSearchUrl = _driver.Url;
 
                 // Verify if the URL served is accurate
-                if (actualSearchUrl == expectedSearchUrl) 
+                if (actualSearchUrl == expectedSearchUrl)
                 {
                     Console.WriteLine("Correct Navigation");
                     Console.WriteLine(actualSearchUrl + " = " + expectedSearchUrl);
@@ -53,13 +53,13 @@ namespace Formy_CSharp_Test_Framework
                 // _driver.Quit();  //Close the browser
                 _driver.Close();    //Close the browser
             }
-            catch(NoSuchElementException)
+            catch (NoSuchElementException)
             {
 
                 Console.WriteLine("The element didn't exist!");
                 _driver.Close();    //Close the browser
             }
-            
+
         }
     }
 }
