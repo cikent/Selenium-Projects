@@ -41,8 +41,8 @@ namespace Formy_CSharp_Test_Framework
         {
             // Declare Element Locator Variables
             IWebElement searchBar = _driver.FindElement(By.Id("nav-search"));                       // Find Element via Id value
-                                                                                                    //IWebElement searchBar = _driver.FindElement(By.Id("navigation"));                     // Find Element via non-valid Id value to cause exception
-                                                                                                    //IWebElement searchBar = _driver.FindElement(By.XPath("//*[@id='nav - search']"));     // Find Element via Xpath value
+            //IWebElement searchBar = _driver.FindElement(By.Id("navigation"));                     // Find Element via non-valid Id value to cause exception
+            //IWebElement searchBar = _driver.FindElement(By.XPath("//*[@id='nav - search']"));     // Find Element via Xpath value
 
             // Test Actions
             searchBar.SendKeys("google maps api react");                                            // Type the String into the Search Bar
@@ -60,7 +60,12 @@ namespace Formy_CSharp_Test_Framework
         public void NavToHome()
         {
             // Declare Element Locator Variables
-            IWebElement logoIcon = _driver.FindElement(By.Id("logo-link"));                         // Find Element via Id value
+            //Not Working Selectors
+            //IWebElement logoIcon = _driver.FindElement(By.Id("logo-link"));                               // Find Element via Id value
+            //IWebElement logoIcon = _driver.FindElement(By.XPath("//*[@id='top-bar']/div/a/svg/path"));    // Find Element via Xpath
+
+            //Working Selectors
+            IWebElement logoIcon = _driver.FindElement(By.CssSelector("#top-bar > div > a > svg > path"));              // Find Element via CssSelector value
 
             // Test Actions
             logoIcon.Click();                                                                        // Click the Logo Icon
