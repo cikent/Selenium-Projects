@@ -1,5 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 using System;
 using NUnit.Framework;
@@ -19,7 +21,9 @@ namespace Formy_CSharp_Test_Framework
         [SetUp]
         public void SetUp()
         {
-            _driver = new ChromeDriver();
+            _driver = new ChromeDriver();                                                         // Initialize the Chrome Driver
+            //_driver = new ChromeDriver();                                                         // Initialize the Firefox Driver
+            //_driver = new ChromeDriver();                                                         // Initialize the IE Driver
             _driver.Navigate().GoToUrl("https://dev.to/jessicabetts");
         }
 
