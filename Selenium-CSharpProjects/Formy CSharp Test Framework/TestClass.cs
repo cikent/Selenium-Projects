@@ -21,9 +21,8 @@ namespace Formy_CSharp_Test_Framework
         [SetUp]
         public void SetUp()
         {
-            _driver = new ChromeDriver();                                                         // Initialize the Chrome Driver
-            //_driver = new ChromeDriver();                                                         // Initialize the Firefox Driver
-            //_driver = new ChromeDriver();                                                         // Initialize the IE Driver
+            _driver = new ChromeDriver();                                                                       // Initialize the Chrome Driver
+            //_driver = new FirefoxDriver();                                                                    // Initialize the Firefox Driver
             _driver.Navigate().GoToUrl("https://dev.to/jessicabetts");
         }
 
@@ -51,12 +50,15 @@ namespace Formy_CSharp_Test_Framework
             // Test Actions
             searchBar.SendKeys("google maps api react");                                            // Type the String into the Search Bar
             searchBar.SendKeys(Keys.Enter);                                                         // Submits the values
+            Thread.Sleep(5000);
 
             // Declare Test Variables
-            string expectedUrl = "https://dev.to/search?q=google%20maps%20api%20react";
+            string expectedUrlChrome = "https://dev.to/search?q=google%20maps%20api%20react";                                     // Chrome's expected URL for the search
+            //string expectedUrlFirefox = "https://dev.to/search?q=google%20maps%20api%20react";                                  // Firefoxe's expected URL for the search
 
             // Verify the Actual URL matches the Expected URL
-            Assert.AreEqual(true, IsCorrectUrl(expectedUrl), "The actual URL does not match the expected URL");
+            Assert.AreEqual(true, IsCorrectUrl(expectedUrlChrome), "The actual URL does not match the expected URL");
+            //Assert.AreEqual(true, IsCorrectUrl(expectedUrlFirefox), "The actual URL does not match the expected URL");
 
         }
 
@@ -65,14 +67,14 @@ namespace Formy_CSharp_Test_Framework
         {
             // Declare Element Locator Variables
             //Not Working Selectors
-            //IWebElement logoIcon = _driver.FindElement(By.Id("logo-link"));                               // Find Element via Id value
-            //IWebElement logoIcon = _driver.FindElement(By.XPath("//*[@id='top-bar']/div/a/svg/path"));    // Find Element via Xpath
+            //IWebElement logoIcon = _driver.FindElement(By.Id("logo-link"));                                           // Find Element via Id value
+            //IWebElement logoIcon = _driver.FindElement(By.XPath("//*[@id='top-bar']/div/a/svg/path"));                // Find Element via Xpath
 
             //Working Selectors
             IWebElement logoIcon = _driver.FindElement(By.CssSelector("#top-bar > div > a > svg > path"));              // Find Element via CssSelector value
 
             // Test Actions
-            logoIcon.Click();                                                                        // Click the Logo Icon
+            logoIcon.Click();                                                                                           // Click the Logo Icon
 
             // Declare Test Variables
             string expectedUrl = "https://dev.to/";
