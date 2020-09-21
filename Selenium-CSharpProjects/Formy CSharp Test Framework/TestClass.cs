@@ -23,6 +23,7 @@ namespace Formy_CSharp_Test_Framework
         {
             _driver = new ChromeDriver();                                                                       // Initialize the Chrome Driver
             //_driver = new FirefoxDriver();                                                                    // Initialize the Firefox Driver
+            //_driver = new InternetExplorerDriver();                                                           // Initialize the Internet Explorer Driver
             _driver.Navigate().GoToUrl("https://dev.to/jessicabetts");
         }
 
@@ -50,15 +51,17 @@ namespace Formy_CSharp_Test_Framework
             // Test Actions
             searchBar.SendKeys("google maps api react");                                            // Type the String into the Search Bar
             searchBar.SendKeys(Keys.Enter);                                                         // Submits the values
-            Thread.Sleep(5000);
+            searchBar.SendKeys(Keys.Enter);                                                         // Submits 2nd time for GeckoDriver bug
 
             // Declare Test Variables
             string expectedUrlChrome = "https://dev.to/search?q=google%20maps%20api%20react";                                     // Chrome's expected URL for the search
             //string expectedUrlFirefox = "https://dev.to/search?q=google%20maps%20api%20react";                                  // Firefoxe's expected URL for the search
+            //string expectedUrlInternetExplorer = "https://dev.to/search?q=google%20maps%20api%20react";                         // Internet Explorer's expected URL for the search
 
             // Verify the Actual URL matches the Expected URL
             Assert.AreEqual(true, IsCorrectUrl(expectedUrlChrome), "The actual URL does not match the expected URL");
             //Assert.AreEqual(true, IsCorrectUrl(expectedUrlFirefox), "The actual URL does not match the expected URL");
+            //Assert.AreEqual(true, IsCorrectUrl(expectedUrlInternetExplorer), "The actual URL does not match the expected URL");
 
         }
 
